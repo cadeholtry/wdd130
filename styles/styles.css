@@ -30,6 +30,7 @@ main {
     max-width: 840px;
 }
 aside {
+    position: relative;
     text-align: center;
 }
 aside img {
@@ -38,8 +39,8 @@ aside img {
 }
 aside h2 {
     position: absolute;
-    bottom: 350px;
-    right: 390px;
+    bottom: 325px;
+    right: 380px;
 
 }
 footer {
