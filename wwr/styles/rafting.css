@@ -48,8 +48,6 @@ header {
     background-color: var(--accent1-color);
 }
 .head img {
-    bottom: 8px;
-    left: 350px;
     box-shadow: 0 0 30px gray;
 }
 h1, h2, h3, h4, h5, h6 {
