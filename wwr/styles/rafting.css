@@ -24,6 +24,8 @@ header {
     align-items: center;
     grid-template-columns: 1fr 2fr ;
     max-width: 1000px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
 }
 .nav {
     background-color: var(--primary-color);
@@ -86,14 +88,19 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
 }
 .adventure {
-    padding: 20px;
-    background-color: var(--secondary-color);
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: var(--primary-color);
     max-width: 1000px;
     border-top: 1px solid #86AA74;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
 }
 .adventure h2 {
     display: flex;
     justify-content: center;
+    color: black;
+    padding: 10px;
 }
 .adventureimg {
     display: flex;
@@ -106,12 +113,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 .history {
     padding: 20px;
-    background-color: var(--secondary-color);
+    background-color: #eee;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
     max-width: 1000px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+}
+.info {
+    background-color: #66868F;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+}
+.info h2 {
+    color: black;
+    padding-bottom: 10px;
+}
+iframe {
+    
+    box-shadow: 0 0 30px gray;
+    
 }
 footer {
     padding: 20px;
@@ -127,4 +151,55 @@ footer p {
 }
 .sociallinks {
     text-decoration: none;
+}
+form {
+    width: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+legend {
+    padding: 0.5rem;
+    color: var(--primary-color);
+    font-size: 1.3em;
+}
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+button {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+button:hover {
+    background-color: var(--accent2-color);
+}
+.form-item {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
 }
