@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
 }
-.info h2 {
+.info h1 {
     color: black;
     padding-bottom: 10px;
 }
